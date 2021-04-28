@@ -48,8 +48,9 @@ this.setState({team:teamComponent,loading:false});
 render (){
 
     return (<div>
+       <h1 className="cntr fantasy">NBA Teams</h1>   
     <div className="bg">{this.state.team }</div> 
-    <h1>SSS</h1>
+    
       </div>
    
     );

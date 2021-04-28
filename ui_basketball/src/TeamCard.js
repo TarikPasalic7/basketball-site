@@ -5,7 +5,7 @@ const TeamCard = ({id,conference,full_name}) => {
   
     return (
 
-        <div className='box' >
+        <div className='box zone' >
             <div >
 
            
