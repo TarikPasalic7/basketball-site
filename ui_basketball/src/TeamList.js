@@ -48,7 +48,7 @@ this.setState({team:teamComponent,loading:false});
 render (){
 
     return (<div>
-    <div>{this.state.team }</div> 
+    <div className="bg">{this.state.team }</div> 
     <h1>SSS</h1>
       </div>
    
