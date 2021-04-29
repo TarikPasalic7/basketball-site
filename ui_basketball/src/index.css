@@ -24,6 +24,9 @@ code {
   display: inline-block;
   justify-content: center;
   text-align: center;
+  height: 400px;
+  width: 300px;
+
 }
 
 .zone {
@@ -48,4 +51,13 @@ code {
 }
 .fantasy{
   font-family: fantasy;
+}
+.scroll{
+overflow-y: scroll;
+border: 1px solid black;
+height: 800px;
+
+}
+.p10{
+  padding: 10px;
 }

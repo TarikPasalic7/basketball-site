@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import TeamList from './TeamList';
 import SearchBox from './SearchBox';
+import Scroll from './Scroll';
 
 
 
@@ -33,7 +34,10 @@ async componentDidMount() {
             <div>
              <h1 className="cntr fantasy">NBA Teams</h1> 
              <SearchBox searchChange = {this.onSearchChange} />
-             <TeamList teams = {filteredTeams} />
+             <Scroll> <TeamList teams = {filteredTeams} /></Scroll>
+            
+             
+            
             </div>
            
            
