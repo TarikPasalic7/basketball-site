@@ -1,8 +1,59 @@
 import React from 'react';
 import TeamCard from './TeamCard';
 
-export default class TeamList extends React.Component{
-  /* 
+
+const TeamList = ({teams}) =>{
+
+return(
+<div>
+{
+ teams.map((team,i)=>{
+
+return(
+ <TeamCard 
+ 
+ key = {i}
+ id = {teams[i].id}
+ full_name = {teams[i].full_name}
+ conference= {teams[i].conference}
+ 
+ 
+ 
+ 
+ 
+ 
+ />
+
+
+
+);
+
+
+
+
+ })
+
+
+
+
+}
+
+
+
+</div>
+
+
+
+);
+
+
+
+
+}
+export default TeamList;
+
+/* export default class TeamList extends React.Component{
+  
   const teamComponent = teams.then(t => t.map((tm,i)=>{
     return (
         <TeamCard
@@ -13,7 +64,7 @@ export default class TeamList extends React.Component{
         );
 
  }));
-*/
+
 
 state = {
     loading: true,
@@ -57,7 +108,7 @@ render (){
    }
 
 }
-
+*/
 
 
 
