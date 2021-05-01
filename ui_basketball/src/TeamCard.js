@@ -10,7 +10,7 @@ const TeamCard = ({id,conference,full_name}) => {
 
            
             <div>
-            <img src="https://blog.logomyway.com/wp-content/uploads/2017/01/nba-logo-1.jpg" alt="nba" height='150' width='130'></img>     
+            <img src="https://blog.logomyway.com/wp-content/uploads/2017/01/nba-logo-1.jpg" alt="nba" height='150' width='120'></img>     
             </div> 
             <div>
                 <h2>{conference}</h2>
